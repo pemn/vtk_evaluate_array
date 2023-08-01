@@ -10,7 +10,7 @@ input_grid|❎|vtk grid
 input_code|❎|can be one of these
 ||python code|evaluate the code against the grid data
 ||existing filename|read the content of a .py file as code
-|-|for command line piping. reads standard input as code.
+||-|for command line piping. reads standard input as code.
 output|☑️|path to save the result. if blank input is updated.
 
 ## 📓 Notes
