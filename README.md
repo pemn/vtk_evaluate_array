@@ -7,7 +7,7 @@ creates new arrays or update existing ones
 name|optional|description
 ---|---|------
 input_grid|❎|vtk grid
-input_code|❎|can be one of these
+input_code|❎|can be one of these:
 ||python code|evaluate the code against the grid data
 ||existing filename|read the content of a .py file as code
 ||-|for command line piping. reads standard input as code.
@@ -15,9 +15,9 @@ output|☑️|path to save the result. if blank input is updated.
 
 ## 📓 Notes
 ## 📚 Examples
-### create a new mass cell data from volume and density
-`mass = volume * density`
-### calculate density from lito text
+### create a new mass cell data from volume and density  
+`mass = volume * density`  
+### calculate density from lito text  
 `density = np.choose(((lito == 'AA') * 1) + ((lito == 'BB') * 2) + ((lito == 'CC') * 3)+ ((lito == 'DD') * 4), (np.nan, 1, 2, 3, 4))`
 ## 🧩 Compatibility
 distribution|status
