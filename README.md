@@ -26,7 +26,7 @@ AA|1
 BB|2
 CC|3
 DD|4
-<unknown>|NaN
+...|NaN
 
 ## 🧩 Compatibility
 distribution|status
