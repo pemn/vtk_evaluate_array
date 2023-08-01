@@ -19,6 +19,15 @@ output|☑️|path to save the result. if blank input is updated.
 `mass = volume * density`  
 ### calculate density from lito text  
 `density = np.choose(((lito == 'AA') * 1) + ((lito == 'BB') * 2) + ((lito == 'CC') * 3)+ ((lito == 'DD') * 4), (np.nan, 1, 2, 3, 4))`
+result will be:  
+lito|density
+---|---
+AA|1
+BB|2
+CC|3
+DD|4
+<unknown>|NaN
+
 ## 🧩 Compatibility
 distribution|status
 ---|---
